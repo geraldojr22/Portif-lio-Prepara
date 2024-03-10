@@ -43,6 +43,10 @@ h1{
     color: rgba(242, 19, 19, 0.832);
 }
 
+h3{
+    color: rgba(242, 19, 19, 0.832);
+}
+
 p{
     text-align: justify;
     font-weight: bold;
