@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Exo+2:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Exo+2:ital,wght@1,600&display=swap');
 
 body {
     color: white;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Exo 2', sans-serif
 }
 
 ul{
@@ -11,7 +13,7 @@ ul{
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding: 16px;
+    padding: 10px;
 }
 
 a {
@@ -43,6 +45,7 @@ h1{
 
 p{
     text-align: justify;
+    font-weight: bold;
 }
 
 footer img {
@@ -74,11 +77,6 @@ footer p {
     padding: 0px 50px;
 }
 
-nav a:hover {
-
-    color: rgba(242, 19, 19, 0.832);
-}
-
 .container .top-container {
 
     height: 45px;
@@ -91,4 +89,9 @@ nav a:hover {
     color: black;
     font-family: 'Lobster';
     font-size: 25px;
+}
+
+.container a:hover {
+
+    color: rgba(237, 24, 24, 0.832);
 }
